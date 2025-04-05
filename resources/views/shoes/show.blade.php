@@ -1,8 +1,8 @@
 <x-layout>
-    <div class="container mx-auto p-8">
-        <div class="max-w-md mx-auto bg-white shadow-md rounded-md overflow-hidden">
-            <img src="{{ asset('storage/' . $shoe->image) }}" alt="{{ $shoe->shoe_name }}" class="w-full h-64 object-cover">
-            
+    <div class="container p-8 mx-auto">
+        <div class="max-w-md mx-auto overflow-hidden bg-white rounded-md shadow-md">
+            <img src="{{ asset('storage/' . $shoe->image) }}" alt="{{ $shoe->shoe_name }}" class="object-cover w-full h-64">
+
             <div class="p-4">
                 <h1 class="text-2xl font-bold">{{ $shoe->shoe_name }}</h1>
                 <p class="text-gray-600">Category: {{ $shoe->category }}</p>
@@ -11,16 +11,16 @@
             </div>
 
             <div class="flex justify-between m-6">
-                <a href="{{ route('shoes.edit', $shoe->id) }}" class="rounded-lg border border-transparent font-bold hover:bg-blue-900 bg-blue-800 py-4 px-8 text-sm">Edit</a>
-                
+                <a href="{{ route('shoes.edit', $shoe->id) }}" class="px-8 py-4 text-sm font-bold bg-blue-800 border border-transparent rounded-lg hover:bg-blue-900">Edit</a>
+
                 <form action="{{ route('shoes.destroy', $shoe->id)}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method('delete')
 
-                    <button class="rounded-lg border border-transparent font-bold hover:bg-red-900 bg-red-800 py-4 px-8 text-sm">Remove</button>
+                    <button class="px-8 py-4 text-sm font-bold bg-red-800 border border-transparent rounded-lg hover:bg-red-900">Remove</button>
                 </form>
             </div>
-        
+
         </div>
 
 
