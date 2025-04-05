@@ -22,7 +22,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 py-6">
         <div class="max-w-7xl mx-auto text-center text-white">
-            <p>&copy; 2024 ShoeStore. Crafted with care and style.</p>
+            <p>&copy; 2025 ShoeStore. Crafted with care and style.</p>
         </div>
     </footer>
 </body>
