@@ -14,6 +14,7 @@ Route::get('/shoes', [ShoeController::class, 'index']);
 Route::get('/shop', [ShoeController::class, 'shop'])->name('shop');
 Route::get('/about', [ShoeController::class, 'about']);
 Route::get('/contact', [ContactController::class, 'contact']);
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 
 
 
