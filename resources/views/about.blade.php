@@ -20,35 +20,41 @@
     <div class="py-10 bg-gray-100">
         <h2 class="mb-8 text-4xl font-bold text-center">Meet Our Team</h2>
         <div class="grid max-w-6xl grid-cols-1 gap-6 px-4 mx-auto sm:grid-cols-2 md:grid-cols-3">
-            <div class="p-4 overflow-hidden text-center bg-white rounded-lg shadow-lg">
+            <div class="p-4 overflow-hidden text-center transition-transform duration-300 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105">
                 <img src="https://img.freepik.com/free-photo/portrait-expressive-young-man-wearing-formal-suit_273609-6942.jpg?t=st=1743949744~exp=1743953344~hmac=120090775b11aa08b8e225d70d39275f931c6396085d68f3aefdaff212c499c2&w=996" alt="Team Member 1" class="object-cover w-32 h-32 mx-auto rounded-full">
                 <h3 class="mt-4 text-xl font-semibold">John Doe</h3>
                 <p class="text-gray-600">CEO</p>
+                <p class="text-sm text-gray-500">John leads the company with a vision for innovation and excellence, ensuring we stay ahead in the footwear industry.</p>
             </div>
-            <div class="p-4 overflow-hidden text-center bg-white rounded-lg shadow-lg">
+            <div class="p-4 overflow-hidden text-center transition-transform duration-300 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105">
                 <img src="https://img.freepik.com/free-photo/african-female-soldier-jobs-career-portrait_53876-148048.jpg?t=st=1743949832~exp=1743953432~hmac=34f1832d58a53042148e07b4572dcb6b8b0a5e1bdcd9946ac0a516c38056d495&w=826" alt="Team Member 2" class="object-cover w-32 h-32 mx-auto rounded-full">
                 <h3 class="mt-4 text-xl font-semibold">Jane Smith</h3>
                 <p class="text-gray-600">Marketing Manager</p>
+                <p class="text-sm text-gray-500">Jane crafts innovative marketing strategies to connect with our customers and expand our brand reach globally.</p>
             </div>
-            <div class="p-4 overflow-hidden text-center bg-white rounded-lg shadow-lg">
+            <div class="p-4 overflow-hidden text-center transition-transform duration-300 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105">
                 <img src="https://img.freepik.com/free-photo/african-teenage-girl-portrait-happy-smiling-face_53876-146757.jpg?t=st=1743949880~exp=1743953480~hmac=487d664bc745f764fd6684d24da640ca4caae71be7cf8d007226c66e3917e9e6&w=826" alt="Team Member 3" class="object-cover w-32 h-32 mx-auto rounded-full">
                 <h3 class="mt-4 text-xl font-semibold">Emily Johnson</h3>
                 <p class="text-gray-600">Lead Designer</p>
+                <p class="text-sm text-gray-500">Emily oversees the design process, ensuring every shoe reflects creativity, style, and functionality.</p>
             </div>
-            <div class="p-4 overflow-hidden text-center bg-white rounded-lg shadow-lg">
+            <div class="p-4 overflow-hidden text-center transition-transform duration-300 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105">
                 <img src="https://img.freepik.com/free-photo/black-man-posing_23-2148171684.jpg?t=st=1743949941~exp=1743953541~hmac=9ed45dc7f48135c120c078f827e1474a0f44b716d853380263b032b06863ab2e&w=740" alt="Team Member 4" class="object-cover w-32 h-32 mx-auto rounded-full">
                 <h3 class="mt-4 text-xl font-semibold">Michael Brown</h3>
                 <p class="text-gray-600">Operations Manager</p>
+                <p class="text-sm text-gray-500">Michael ensures smooth day-to-day operations, optimizing processes for efficiency and quality.</p>
             </div>
-            <div class="p-4 overflow-hidden text-center bg-white rounded-lg shadow-lg">
+            <div class="p-4 overflow-hidden text-center transition-transform duration-300 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105">
                 <img src="https://img.freepik.com/free-photo/smiley-african-woman-with-golden-earrings_23-2148747979.jpg?t=st=1743949991~exp=1743953591~hmac=d982a45eab37ec9caa263e25216067af6f86b83294e69a26efcac75925229c1c&w=740" alt="Team Member 5" class="object-cover w-32 h-32 mx-auto rounded-full">
                 <h3 class="mt-4 text-xl font-semibold">Sophia Davis</h3>
                 <p class="text-gray-600">HR Manager</p>
+                <p class="text-sm text-gray-500">Sophia manages our team, fostering a positive work environment and ensuring employee satisfaction.</p>
             </div>
-            <div class="p-4 overflow-hidden text-center bg-white rounded-lg shadow-lg">
+            <div class="p-4 overflow-hidden text-center transition-transform duration-300 bg-white rounded-lg shadow-lg hover:shadow-2xl hover:scale-105">
                 <img src="https://img.freepik.com/free-photo/people-lifestyle_273609-5661.jpg?t=st=1743950055~exp=1743953655~hmac=2b9312de4d439214462fbde44507f96a87a1ad7d0070222398059dd6d9eaabfd&w=996" alt="Team Member 6" class="object-cover w-32 h-32 mx-auto rounded-full">
                 <h3 class="mt-4 text-xl font-semibold">William Wilson</h3>
                 <p class="text-gray-600">Finance Manager</p>
+                <p class="text-sm text-gray-500">William oversees financial planning and budgeting, ensuring the company's financial health and sustainability.</p>
             </div>
         </div>
     </div>
